@@ -1,18 +1,19 @@
 # AZURE-dio
 Criei este repositório para organizar e compartilhar as atividades realizadas durante o Bootcamp Azure promovido pela DIO.
 
+
 # Aprendizado em Azure: Banco de Dados para Transporte
 
 Este projeto demonstra meu aprendizado em recursos do Microsoft Azure, especialmente na criação, monitoramento e uso de um banco de dados SQL para armazenar e consultar dados relacionados a transporte.
 
-## Recursos Azure Utilizados
+Recursos Azure Utilizados
 
 - **Azure SQL Database:** Criação e gerenciamento de banco de dados relacional na nuvem.
 - **Azure Portal:** Utilizado para configuração, administração e acesso ao banco de dados.
 - **Editor de Consultas SQL:** Para inserção, consulta e exportação de dados diretamente pelo portal.
 - **Azure Dashboard:** Criação de painéis de monitoramento personalizados.
 
-## Estrutura do Banco de Dados
+Estrutura do Banco de Dados
 
 Foi criada uma tabela chamada `Viagens` com os seguintes campos:
 
@@ -23,7 +24,7 @@ Foi criada uma tabela chamada `Viagens` com os seguintes campos:
 - `receita_frete` (decimal)
 - `data_viagem` (date)
 
-## Exemplo de Dados Inseridos
+Exemplo de Dados Inseridos
 
 | id_viagem | cidade_origem   | cidade_destino   | custo_frete | receita_frete | data_viagem |
 |-----------|----------------|------------------|-------------|---------------|-------------|
@@ -33,7 +34,7 @@ Foi criada uma tabela chamada `Viagens` com os seguintes campos:
 | 4         | Curitiba       | Porto Alegre     | 1300.00     | 2200.00       | 2024-03-15  |
 | 5         | São Paulo      | Belo Horizonte   | 1100.00     | 1900.00       | 2024-03-20  |
 
-## Dashboard de Monitoramento
+Dashboard de Monitoramento
 
 Criei um dashboard no Azure Portal para monitorar três métricas principais do meu banco de dados `dio-nivia/adb-dio-transportes`:
 
@@ -58,7 +59,7 @@ Após a criação, acesse o recurso e clique em Iniciar Studio.
 
 ![image](https://github.com/user-attachments/assets/25af348f-3be4-442d-8d7c-2e8ed4ad71e0)
  
-3. Configuração do Repositório Git 
+## 3. Configuração do Repositório Git 
 No Data Factory Studio, vá em Gerenciar > Configuração do Git.
 
 Escolha Azure DevOps Git como tipo de repositório.
