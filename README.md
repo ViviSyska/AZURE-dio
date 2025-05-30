@@ -1,6 +1,49 @@
 # AZURE-dio
 Criei este repositório para organizar e compartilhar as atividades realizadas durante o Bootcamp Azure promovido pela DIO.
 
+# Aprendizado em Azure: Banco de Dados para Transporte
+
+Este projeto demonstra meu aprendizado em recursos do Microsoft Azure, especialmente na criação, monitoramento e uso de um banco de dados SQL para armazenar e consultar dados relacionados a transporte.
+
+Recursos Azure Utilizados
+
+- **Azure SQL Database:** Criação e gerenciamento de banco de dados relacional na nuvem.
+- **Azure Portal:** Utilizado para configuração, administração e acesso ao banco de dados.
+- **Editor de Consultas SQL:** Para inserção, consulta e exportação de dados diretamente pelo portal.
+- **Azure Dashboard:** Criação de painéis de monitoramento personalizados.
+
+Estrutura do Banco de Dados
+
+Foi criada uma tabela chamada `Viagens` com os seguintes campos:
+
+- `id_viagem` (int, chave primária)
+- `cidade_origem` (varchar)
+- `cidade_destino` (varchar)
+- `custo_frete` (decimal)
+- `receita_frete` (decimal)
+- `data_viagem` (date)
+
+Exemplo de Dados Inseridos
+
+| id_viagem | cidade_origem   | cidade_destino   | custo_frete | receita_frete | data_viagem |
+|-----------|----------------|------------------|-------------|---------------|-------------|
+| 1         | São Paulo      | Rio de Janeiro   | 1500.00     | 2500.00       | 2024-03-01  |
+| 2         | Belo Horizonte | São Paulo        | 1200.00     | 2000.00       | 2024-03-05  |
+| 3         | Rio de Janeiro | Curitiba         | 1800.00     | 2800.00       | 2024-03-10  |
+| 4         | Curitiba       | Porto Alegre     | 1300.00     | 2200.00       | 2024-03-15  |
+| 5         | São Paulo      | Belo Horizonte   | 1100.00     | 1900.00       | 2024-03-20  |
+
+Dashboard de Monitoramento
+
+Criei um dashboard no Azure Portal para monitorar três métricas principais do meu banco de dados `dio-nivia/adb-dio-transportes`:
+
+- **Data space used (Máx):** 20,56 SB  
+- **Failed Connections : User Errors (Contagem):** 5  
+- **Successful Connections (Contagem):** 16  
+
+Abaixo, segue a imagem do meu dashboard com essas métricas:
+![image](https://github.com/user-attachments/assets/860df0d2-949f-4630-8797-8227e40df390)
+
 ## Configurando o Azure Data Factory com Repositório do Azure DevOps
 
 1. Criação do Data Factory
