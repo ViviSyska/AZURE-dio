@@ -1,0 +1,35 @@
+
+
+## Pipeline de Transferência de Dados
+
+1. Conceitos de Integração de Dados
+   
+- Pipelines de Dados: Entendi o papel dos pipelines como fluxos automatizados para mover e transformar dados entre sistemas.
+
+- ETL (Extract, Transform, Load): Aprendi a extrair dados de uma fonte, realizar transformações (quando necessário) e carregá-los em um destino.
+
+![image](https://github.com/user-attachments/assets/11995b4c-3934-4571-816e-aee0a7d8a0b3)
+
+
+2. Azure Data Factory
+Criação de Linked Services: Descobri como conectar o Azure Data Factory ao banco de dados de origem (SQL Server) e ao destino (Azure Blob Storage).
+
+- Datasets: Aprendi a configurar datasets representando a tabela de origem e o arquivo de destino.
+
+# Atividades de Cópia: Configurei uma atividade de cópia para transferir os dados da tabela viagens para o container bronze.
+
+![image](https://github.com/user-attachments/assets/d3d67b53-b8f2-4279-b6b0-28fe499207ce)
+
+
+3. Banco de Dados e Armazenamento em Nuvem
+Consulta e Seleção de Dados: Pratiquei como selecionar e filtrar dados relevantes para exportação.
+
+Azure Blob Storage: Aprendi a criar containers e entender a diferença entre as camadas bronze, silver e gold.
+
+![image](https://github.com/user-attachments/assets/9ad06eb0-a027-464c-8bc4-e04327ed9e22)
+
+
+4. Resolução de Problemas
+Mensagens de Erro: Aprendi a interpretar mensagens de erro (como "Invalid object name") e a importância de validar nomes de tabelas, schemas e permissões.
+
+Testes e Validações: Compreendi a necessidade de testar conexões e permissões antes de executar o pipeline completo.
