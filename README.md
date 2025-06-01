@@ -78,6 +78,25 @@ Mensagens de Erro: Aprendi a interpretar mensagens de erro (como "Invalid object
 
 Testes e Validações: Compreendi a necessidade de testar conexões e permissões antes de executar o pipeline completo.
 
+## Exercício – Explorar o Azure Databricks
+
+- CRIANDO UM CLUSTER
+
+*Usando a Região Brazil South*
+
+![image](https://github.com/user-attachments/assets/abd1217b-9b91-4c98-9243-b138d018478c)
+
+  - ANÁLISE DE DADOS E FILTROS
+
+![image](https://github.com/user-attachments/assets/c753fe53-f621-409e-b30c-25c0b863f9d3)
+
+- GERNADO UM GRÁFICO
+
+  ![image](https://github.com/user-attachments/assets/69a79c08-28d3-4831-9792-e765d2389b08)
+
+*com as 10 categorias com mais produtos*
+
+
 ## Configurando o Azure Data Factory com Repositório do Azure DevOps
 
 1. Criação do Data Factory
